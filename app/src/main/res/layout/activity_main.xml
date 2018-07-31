@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#0B0033"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/moodradiologo1mdpi"/>
+
     <TextView
-        android: id="@id/happy"
+        android:id="@+id/happy"
         style="@style/MoodStyle"
-        android:background="@color/happy_color"
-        android:text="Happy"
+        android:text="@string/playlist_happy"
         android:onClick="openHappyRadio" />
 
-</android.support.constraint.LinearLayout>
+    <TextView
+        android:id="@+id/sad"
+        style="@style/MoodStyle"
+        android:text="@string/playlist_sad"/>
+
+    <TextView
+        android:id="@+id/romantic"
+        style="@style/MoodStyle"
+        android:text="@string/playlist_romantic"/>
+
+    <TextView
+        android:id="@+id/sleepy"
+        style="@style/MoodStyle"
+        android:text="@string/playlist_sleepy"/>
+
+</LinearLayout>
