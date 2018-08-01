@@ -11,13 +11,13 @@
 
 
     <TextView
-        android:id="@+id/miwok_text_view"
+        android:id="@+id/song_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Song Title"/>
 
     <TextView
-        android:id="@+id/default_text_view"
+        android:id="@+id/artist_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Musician Name"/>
