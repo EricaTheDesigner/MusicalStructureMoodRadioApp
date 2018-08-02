@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0B0033"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,25 +15,50 @@
         android:layout_margin="16dp"
         android:src="@drawable/moodradiologonew"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/moodradiogradient"/>
+
     <TextView
         android:id="@+id/happy"
-        style="@style/MoodStyle"
+        style="@style/MoodStyleHappy"
         android:text="@string/playlist_happy"
         android:onClick="openHappyRadio" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/moodradiogradient"/>
+
     <TextView
         android:id="@+id/sad"
-        style="@style/MoodStyle"
+        style="@style/MoodStyleSad"
         android:text="@string/playlist_sad"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/moodradiogradient"/>
 
     <TextView
         android:id="@+id/romantic"
-        style="@style/MoodStyle"
+        style="@style/MoodStyleRomantic"
         android:text="@string/playlist_romantic"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/moodradiogradient"/>
 
     <TextView
         android:id="@+id/sleepy"
-        style="@style/MoodStyle"
+        style="@style/MoodStyleSleepy"
         android:text="@string/playlist_sleepy"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/moodradiogradient"/>
 
 </LinearLayout>

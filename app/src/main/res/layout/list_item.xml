@@ -4,23 +4,31 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:background="@color/colorPrimaryDark">
 
 
     <TextView
         android:id="@+id/song_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Song Title"/>
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        tools:text="Song Title"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
 
     <TextView
         android:id="@+id/artist_name_text_view"
         android:layout_width="match_parent"
+        android:textColor="#eae8e8"
+        android:textAllCaps="true"
         android:layout_height="wrap_content"
-        tools:text="Musician Name"/>
+        tools:text="Musician Name"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
 
 
 </LinearLayout>

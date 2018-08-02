@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Musical Structure Mood Radio App</string>
-    <string name="playlist_happy">Happy</string>
-    <string name="playlist_sad">Sad</string>
-    <string name="playlist_romantic">Romantic</string>
-    <string name="playlist_sleepy">Sleepy</string>
+    <string name="playlist_happy"> Happy</string>
+    <string name="playlist_sad"> Sad</string>
+    <string name="playlist_romantic"> Romantic</string>
+    <string name="playlist_sleepy"> Sleepy</string>
 </resources>

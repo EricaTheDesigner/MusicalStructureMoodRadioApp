@@ -18,4 +18,20 @@
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
     </style>
 
+    <style name="MoodStyleHappy" parent="MoodStyle">
+        <item name="android:drawableLeft">@drawable/happyicon</item>
+    </style>
+
+    <style name="MoodStyleSad" parent="MoodStyle">
+        <item name="android:drawableLeft">@drawable/sadicon</item>
+    </style>
+
+    <style name="MoodStyleRomantic" parent="MoodStyle">
+        <item name="android:drawableLeft">@drawable/romanticicon</item>
+    </style>
+
+    <style name="MoodStyleSleepy" parent="MoodStyle">
+        <item name="android:drawableLeft">@drawable/sleepyicon</item>
+    </style>
+
 </resources>
