@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the happy playlist
-        TextView happy = (TextView) findViewById(R.id.happy);
+        TextView happy = findViewById(R.id.happy);
 
         // Set a click listener on that View
         happy.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the sad playlist
-        TextView sad = (TextView) findViewById(R.id.sad);
+        TextView sad = findViewById(R.id.sad);
 
         // Set a click listener on that View
         sad.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the romantic playlist
-        TextView romantic = (TextView) findViewById(R.id.romantic);
+        TextView romantic = findViewById(R.id.romantic);
 
         // Set a click listener on that View
         romantic.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the phrases category
-        TextView phrases = (TextView) findViewById(R.id.sleepy);
+        TextView phrases = findViewById(R.id.sleepy);
 
         // Set a click listener on that View
         phrases.setOnClickListener(new View.OnClickListener() {

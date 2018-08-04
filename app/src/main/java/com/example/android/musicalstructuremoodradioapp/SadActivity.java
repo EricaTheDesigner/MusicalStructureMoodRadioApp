@@ -26,7 +26,7 @@ public class SadActivity extends AppCompatActivity {
         words.add(new Music("Song Name", "Artist"));
         words.add(new Music("Song Name", "Artist"));
 
-// Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         MusicAdapter adapter = new MusicAdapter(this, words);
 

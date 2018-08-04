@@ -25,9 +25,9 @@ public class MusicAdapter extends ArrayAdapter<Music> {
                     R.layout.list_item, parent, false);
         }
         Music my_music = getItem(position);
-        TextView songNameTextView = (TextView) listItemView.findViewById(R.id.song_name_text_view);
+        TextView songNameTextView = listItemView.findViewById(R.id.song_name_text_view);
         songNameTextView.setText(my_music.getmSongName());
-        TextView artistNameTextView = (TextView) listItemView.findViewById(R.id.artist_name_text_view);
+        TextView artistNameTextView = listItemView.findViewById(R.id.artist_name_text_view);
         artistNameTextView.setText(my_music.getmSongArtist());
 
         return listItemView;
