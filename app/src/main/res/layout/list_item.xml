@@ -5,32 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/fastrewind"
-            />
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/playbutton"
-            />
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/fastforward"
-            />
-
-    </LinearLayout>
-
 
     <TextView
         android:id="@+id/song_name_text_view"
